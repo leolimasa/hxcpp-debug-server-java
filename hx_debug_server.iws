@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6ae975d6-f896-4f3f-8fac-9213d1298710" name="Default" comment="" />
+    <list default="true" id="6ae975d6-f896-4f3f-8fac-9213d1298710" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hxdebugserver/HxcppProtocol.java" afterPath="$PROJECT_DIR$/src/hxdebugserver/HxcppProtocol.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hxdebugserver/HxcppServer.java" afterPath="$PROJECT_DIR$/src/hxdebugserver/HxcppServer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hx_debug_server.iml" afterPath="$PROJECT_DIR$/hx_debug_server.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hx_debug_server.ipr" afterPath="$PROJECT_DIR$/hx_debug_server.ipr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hx_debug_server.iws" afterPath="$PROJECT_DIR$/hx_debug_server.iws" />
+    </list>
     <ignored path="hx_debug_server.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,9 +26,9 @@
   <component name="DebuggerManager">
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
-        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_CAUGHT" value="false" />
         <option name="NOTIFY_UNCAUGHT" value="true" />
-        <option name="ENABLED" value="false" />
+        <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
         <option name="REMOVE_AFTER_HIT" value="false" />
@@ -33,13 +39,13 @@
         <option name="CONDITION_ENABLED" value="true" />
         <option name="CLASS_FILTERS_ENABLED" value="false" />
         <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
       <breakpoint>
-        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_CAUGHT" value="false" />
         <option name="NOTIFY_UNCAUGHT" value="true" />
-        <option name="ENABLED" value="false" />
+        <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
         <option name="REMOVE_AFTER_HIT" value="false" />
@@ -50,11 +56,28 @@
         <option name="CONDITION_ENABLED" value="true" />
         <option name="CLASS_FILTERS_ENABLED" value="false" />
         <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/hxdebugserver/HxcppServer.java" line="66" class="hxdebugserver.HxcppServer" package="hxdebugserver">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -67,52 +90,132 @@
       <file leaf-file-name="HxcppServer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hxdebugserver/HxcppServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="5" selection-start="991" selection-end="991" vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="1134">
+            <state line="66" column="0" selection-start="1720" selection-end="1720" vertical-scroll-proportion="0.0" vertical-offset="1007" max-vertical-offset="3150">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1019#1020#0" expanded="true" />
-                <element signature="e#1046#1047#0" expanded="true" />
+                <element signature="e#2311#2319#0" expanded="true" />
+                <element signature="e#3000#3008#0" expanded="true" />
+                <element signature="e#4194#4202#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HxcppProtocol.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="HxcppVariable.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hxdebugserver/HxcppVariable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="76" column="20" selection-start="2306" selection-end="2306" vertical-scroll-proportion="0.0" vertical-offset="1168" max-vertical-offset="2034">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#549#564#0" expanded="true" />
+                <element signature="e#2284#2285#0" expanded="true" />
+                <element signature="e#2311#2312#0" expanded="true" />
+                <element signature="e#2351#2352#0" expanded="true" />
+                <element signature="e#2383#2384#0" expanded="true" />
+                <element signature="e#2414#2415#0" expanded="true" />
+                <element signature="e#2441#2442#0" expanded="true" />
+                <element signature="e#2481#2482#0" expanded="true" />
+                <element signature="e#2513#2514#0" expanded="true" />
+                <element signature="e#2545#2546#0" expanded="true" />
+                <element signature="e#2573#2574#0" expanded="true" />
+                <element signature="e#2615#2616#0" expanded="true" />
+                <element signature="e#2649#2650#0" expanded="true" />
+                <element signature="e#2686#2687#0" expanded="true" />
+                <element signature="e#2719#2720#0" expanded="true" />
+                <element signature="e#2771#2772#0" expanded="true" />
+                <element signature="e#2815#2816#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HxcppVariableTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/HxcppVariableTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="32" selection-start="119" selection-end="119" vertical-scroll-proportion="0.2937063" vertical-offset="0" max-vertical-offset="429">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Runtime.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/haxe/lang/Runtime.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="415" column="39" selection-start="9553" selection-end="9553" vertical-scroll-proportion="0.0" vertical-offset="7228" max-vertical-offset="10278">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Unserializer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/haxe/Unserializer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="250" column="0" selection-start="5595" selection-end="5595" vertical-scroll-proportion="0.0" vertical-offset="4338" max-vertical-offset="24606">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="URLClassLoader.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar:///usr/lib/jvm/java-7-oracle/src.zip!/java/net/URLClassLoader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="365" column="0" selection-start="13550" selection-end="13550" vertical-scroll-proportion="0.0" vertical-offset="5525" max-vertical-offset="13194">
+              <folding>
+                <element signature="e#0#30119#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#12958#13683#0" expanded="false" />
+                <element signature="e#13664#13665#0" expanded="false" />
+                <element signature="e#21108#21261#0" expanded="false" />
+                <element signature="e#21246#21247#0" expanded="false" />
+                <element signature="e#22178#22473#0" expanded="false" />
+                <element signature="e#22446#22447#0" expanded="false" />
+                <element signature="e#26441#26661#0" expanded="false" />
+                <element signature="e#26642#26643#0" expanded="false" />
+                <element signature="e#27660#27851#0" expanded="false" />
+                <element signature="e#27836#27837#0" expanded="false" />
+                <element signature="e#28663#28846#0" expanded="false" />
+                <element signature="e#28831#28832#0" expanded="false" />
+                <element signature="e#28951#29120#0" expanded="false" />
+                <element signature="e#29105#29106#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClassLoader.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar:///usr/lib/jvm/java-7-oracle/src.zip!/java/lang/ClassLoader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="434" column="0" selection-start="16641" selection-end="16641" vertical-scroll-proportion="0.0" vertical-offset="6641" max-vertical-offset="38880">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Type.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/haxe/root/Type.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="348" column="0" selection-start="7388" selection-end="7388" vertical-scroll-proportion="0.0" vertical-offset="6090" max-vertical-offset="10170">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VariableName.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/flashdevelop/cpp/debugger/VariableName.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="14" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="594">
+              <folding>
+                <element signature="e#60#110#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HxcppProtocol.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hxdebugserver/HxcppProtocol.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="0" selection-start="1301" selection-end="1301" vertical-scroll-proportion="0.768" vertical-offset="444" max-vertical-offset="1080">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Message.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/flashdevelop/cpp/debugger/Message.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="22" selection-start="1356" selection-end="1356" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4104">
+            <state line="25" column="0" selection-start="682" selection-end="682" vertical-scroll-proportion="0.0" vertical-offset="261" max-vertical-offset="1296">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Serializer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/haxe/Serializer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="50" selection-start="1661" selection-end="1661" vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="17640">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NumberFormatException.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar:///usr/lib/jvm/java-7-oracle/src.zip!/java/lang/NumberFormatException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="0" selection-start="1283" selection-end="1283" vertical-scroll-proportion="0.0" vertical-offset="282" max-vertical-offset="900">
-              <folding>
-                <element signature="e#0#1368#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -124,12 +227,26 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/hxdebugserver/HxSerializer.java" />
         <option value="$PROJECT_DIR$/src/hxdebugserver/Server.java" />
+        <option value="$PROJECT_DIR$/src/hxdebugserver/IHxcppCallback.java" />
         <option value="$PROJECT_DIR$/src/hxdebugserver/HxcppProtocol.java" />
+        <option value="$PROJECT_DIR$/src/hxdebugserver/HxcppStackFrame.java" />
+        <option value="$PROJECT_DIR$/src/hxdebugserver/ExpresssionResult.java" />
+        <option value="$PROJECT_DIR$/src/hxdebugserver/HxcppServer.java" />
+        <option value="$PROJECT_DIR$/src/hxdebugserver/HxcppVariable.java" />
+        <option value="$PROJECT_DIR$/src/test/HxcppVariableTest.java" />
       </list>
     </option>
   </component>
@@ -139,7 +256,7 @@
     <option name="width" value="1922" />
     <option name="height" value="1080" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -165,6 +282,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -197,7 +315,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="debugger" />
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hx_debug_server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hx_debug_server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -219,24 +351,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hx_debug_server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hx_debug_server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -250,6 +367,20 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="dynamic.classpath" value="false" />
     <property name="FullScreen" value="false" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="test" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.hxdebugserver">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
@@ -299,19 +430,6 @@
       </ExternalSystemSettings>
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -337,6 +455,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -421,6 +552,23 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="6ae975d6-f896-4f3f-8fac-9213d1298710" name="Default" comment="" />
@@ -431,7 +579,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1919" y="1" width="1922" height="1080" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -439,7 +587,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997923" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.50155765" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -448,8 +596,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1755603" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.45171338" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29882604" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.317757" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -466,64 +614,169 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/hxdebugserver/HxcppServer.java">
+    <entry file="file://$PROJECT_DIR$/src/org/flashdevelop/cpp/debugger/Command.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="25" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="828">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1019#1020#0" expanded="true" />
-            <element signature="e#1046#1047#0" expanded="true" />
-          </folding>
+        <state line="39" column="4" selection-start="3901" selection-end="3901" vertical-scroll-proportion="0.0" vertical-offset="52" max-vertical-offset="3402">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/lib/jvm/java-7-oracle/src.zip!/java/lang/NumberFormatException.java">
+    <entry file="file://$PROJECT_DIR$/src/org/flashdevelop/cpp/debugger/IController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="0" selection-start="1283" selection-end="1283" vertical-scroll-proportion="0.0" vertical-offset="282" max-vertical-offset="900">
-          <folding>
-            <element signature="e#0#1368#0" expanded="false" />
-          </folding>
+        <state line="4" column="18" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hxdebugserver/HxcppServer.java">
+    <entry file="file://$PROJECT_DIR$/src/haxe/lang/Enum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="5" selection-start="991" selection-end="991" vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="1134">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1019#1020#0" expanded="true" />
-            <element signature="e#1046#1047#0" expanded="true" />
-          </folding>
+        <state line="48" column="0" selection-start="1123" selection-end="1123" vertical-scroll-proportion="0.0" vertical-offset="701" max-vertical-offset="2502">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hxdebugserver/HxcppStackFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="31" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="252">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/flashdevelop/cpp/debugger/Message.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="22" selection-start="1356" selection-end="1356" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4104">
+        <state line="20" column="4" selection-start="1727" selection-end="1727" vertical-scroll-proportion="0.0" vertical-offset="3635" max-vertical-offset="4104">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/haxe/Serializer.java">
+    <entry file="file://$PROJECT_DIR$/src/haxe/lang/HaxeException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="50" selection-start="1661" selection-end="1661" vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="17640">
+        <state line="28" column="0" selection-start="696" selection-end="696" vertical-scroll-proportion="0.0" vertical-offset="344" max-vertical-offset="1134">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hxdebugserver/HxcppProtocol.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="0" selection-start="1301" selection-end="1301" vertical-scroll-proportion="0.768" vertical-offset="444" max-vertical-offset="1080">
+        <state line="25" column="0" selection-start="682" selection-end="682" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="1296">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-7-oracle/src.zip!/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="434" column="0" selection-start="16641" selection-end="16641" vertical-scroll-proportion="0.0" vertical-offset="6641" max-vertical-offset="38880">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-7-oracle/src.zip!/java/net/URLClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="365" column="0" selection-start="13550" selection-end="13550" vertical-scroll-proportion="0.0" vertical-offset="5525" max-vertical-offset="13194">
+          <folding>
+            <element signature="e#0#30119#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#12958#13683#0" expanded="false" />
+            <element signature="e#13664#13665#0" expanded="false" />
+            <element signature="e#21108#21261#0" expanded="false" />
+            <element signature="e#21246#21247#0" expanded="false" />
+            <element signature="e#22178#22473#0" expanded="false" />
+            <element signature="e#22446#22447#0" expanded="false" />
+            <element signature="e#26441#26661#0" expanded="false" />
+            <element signature="e#26642#26643#0" expanded="false" />
+            <element signature="e#27660#27851#0" expanded="false" />
+            <element signature="e#27836#27837#0" expanded="false" />
+            <element signature="e#28663#28846#0" expanded="false" />
+            <element signature="e#28831#28832#0" expanded="false" />
+            <element signature="e#28951#29120#0" expanded="false" />
+            <element signature="e#29105#29106#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/haxe/Unserializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="250" column="0" selection-start="5595" selection-end="5595" vertical-scroll-proportion="0.0" vertical-offset="4338" max-vertical-offset="24606">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/flashdevelop/cpp/debugger/VariableName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="14" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="594">
+          <folding>
+            <element signature="e#60#110#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/haxe/root/Type.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="348" column="0" selection-start="7388" selection-end="7388" vertical-scroll-proportion="0.0" vertical-offset="6090" max-vertical-offset="10170">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/haxe/lang/Runtime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="415" column="39" selection-start="9553" selection-end="9553" vertical-scroll-proportion="0.0" vertical-offset="7228" max-vertical-offset="10278">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hxdebugserver/HxcppServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="0" selection-start="1720" selection-end="1720" vertical-scroll-proportion="0.0" vertical-offset="1007" max-vertical-offset="3150">
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2311#2319#0" expanded="true" />
+            <element signature="e#3000#3008#0" expanded="true" />
+            <element signature="e#4194#4202#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hxdebugserver/HxcppVariable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="20" selection-start="2306" selection-end="2306" vertical-scroll-proportion="0.0" vertical-offset="1168" max-vertical-offset="2034">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#549#564#0" expanded="true" />
+            <element signature="e#2284#2285#0" expanded="true" />
+            <element signature="e#2311#2312#0" expanded="true" />
+            <element signature="e#2351#2352#0" expanded="true" />
+            <element signature="e#2383#2384#0" expanded="true" />
+            <element signature="e#2414#2415#0" expanded="true" />
+            <element signature="e#2441#2442#0" expanded="true" />
+            <element signature="e#2481#2482#0" expanded="true" />
+            <element signature="e#2513#2514#0" expanded="true" />
+            <element signature="e#2545#2546#0" expanded="true" />
+            <element signature="e#2573#2574#0" expanded="true" />
+            <element signature="e#2615#2616#0" expanded="true" />
+            <element signature="e#2649#2650#0" expanded="true" />
+            <element signature="e#2686#2687#0" expanded="true" />
+            <element signature="e#2719#2720#0" expanded="true" />
+            <element signature="e#2771#2772#0" expanded="true" />
+            <element signature="e#2815#2816#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/HxcppVariableTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="32" selection-start="119" selection-end="119" vertical-scroll-proportion="0.2937063" vertical-offset="0" max-vertical-offset="429">
+          <folding />
         </state>
       </provider>
     </entry>

@@ -13,7 +13,7 @@ public class HxcppProtocol {
     private static String serverIdent = "Haxe debug server v1.0 ready and willing, sir!\n\n";
     private static String clientIdent = "Haxe debug client v1.0 coming at you!\n\n";
 
-    public void readObject() throws IOException {
+    public Object readHaxeObject() throws IOException {
 
         // Reads the size of the object
         String sizeStr = readString(8);
@@ -21,11 +21,24 @@ public class HxcppProtocol {
 
         // Reads the serialized object
         String serialized = readString(size);
-        System.out.println(serialized);
 
         // Decodes the serialized object
-        Object obj = haxe.Unserializer.run(serialized);
-        System.out.println("Decoded");
+        return haxe.Unserializer.run(serialized);
+    }
+
+    public void writeHaxeObject(Object obj) throws IOException {
+        String serialized = haxe.Serializer.run(obj);
+
+        // Converts the length to string
+        String objLength = Integer.toString(serialized.length());
+
+        // Pads with zeroes if needed (needs to be at least 8 bytes)
+        while (objLength.length() < 8) {
+            objLength = "0" + objLength;
+        }
+
+        writeString(objLength);
+        writeString(serialized);
     }
 
     public void handshake() throws IOException {
